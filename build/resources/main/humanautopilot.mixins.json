@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "dev.humanautopilot.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"KeyMappingAccessor",
+		"MouseHandlerMixin",
+		"MouseHandlerAccessor",
+		"ContainerScreenAccessor",
+		"RecipeBookScreenAccessor",
+		"RecipeBookComponentAccessor",
+		"RecipeBookPageAccessor",
+		"GameModeMixin",
+		"MinecraftMixin",
+		"GuiMixin",
+		"BlockItemInvoker",
+		"LocalPlayerAccessor",
+		"CreativeScreenAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,7 @@
+This is my Fabric mod "Human Autopilot" for Minecraft 26.1.2. Read CLAUDE.md first.
+
+The main goal: make the bot play survival like a real human, not a robot. Real key presses and mouse movement are the minimum. What matters most is BEHAVIOR: sensible decisions, normal player habits, looking around with purpose, reacting to things, small believable mistakes, no jitter, and no perfectly robotic timing or paths. Use the "Ideas to make it more human" list in CLAUDE.md, and add your own ideas about how real players act.
+
+First, fix the open bug in CLAUDE.md: it keeps tossing the wooden pickaxe and dirt, and they come back. Then repeat: add a human behavior, build, test in a real generated world (not a flat test island), look at the screenshots and logs, and ask "would a real player do this?" Also keep progressing toward iron, a bed, armor and diamonds.
+
+Run tests in the background. Tell me what the bot did and WHY, not just the bugs. When a build is good, copy the jar into C:\Users\ItsMe\AppData\Roaming\.minecraft\mods. Keep going until I tell you to stop.

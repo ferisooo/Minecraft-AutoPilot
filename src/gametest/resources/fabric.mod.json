@@ -1,0 +1,11 @@
+{
+	"schemaVersion": 1,
+	"id": "humanautopilot-test",
+	"version": "1.0.0",
+	"name": "Human Autopilot tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": ["dev.humanautopilot.test.AutopilotClientTest", "dev.humanautopilot.test.SurvivalClientTest", "dev.humanautopilot.test.LifeClientTest", "dev.humanautopilot.test.DangerClientTest", "dev.humanautopilot.test.RealWorldClientTest", "dev.humanautopilot.test.RecorderClientTest", "dev.humanautopilot.test.BaritoneClientTest", "dev.humanautopilot.test.BoxClientTest", "dev.humanautopilot.test.SchematicClientTest", "dev.humanautopilot.test.ParkourClientTest", "dev.humanautopilot.test.FarmClientTest", "dev.humanautopilot.test.WipeClientTest", "dev.humanautopilot.test.TalkClientTest", "dev.humanautopilot.test.LadderClientTest", "dev.humanautopilot.test.OneBlockClientTest"]
+	},
+	"depends": {"humanautopilot": "*"}
+}

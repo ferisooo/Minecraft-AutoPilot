@@ -1,0 +1,16 @@
+{
+	"key.category.humanautopilot.main": "Human Autopilot",
+	"key.humanautopilot.panic": "PANIC - stop everything",
+	"key.humanautopilot.goto": "Toggle pathing (pause/resume /goto)",
+	"key.humanautopilot.combat": "Toggle combat",
+	"key.humanautopilot.mining": "Toggle mining",
+	"key.humanautopilot.eat": "Toggle auto-eat",
+	"key.humanautopilot.idle": "Toggle idle looking",
+	"key.humanautopilot.hud": "Toggle HUD",
+	"key.humanautopilot.survival": "Toggle survival mode (plays from scratch)",
+	"key.humanautopilot.record": "Record my gameplay (so the bot learns my style)",
+	"key.humanautopilot.box": "Toggle box fill (keeps the Bedrock Box filled)",
+	"key.humanautopilot.menu": "Autopilot menu (box fill, build schematic)",
+	"key.humanautopilot.rotate": "Schematic preview: turn 90 degrees",
+	"key.humanautopilot.pause": "Pause / resume box fill or schematic"
+}

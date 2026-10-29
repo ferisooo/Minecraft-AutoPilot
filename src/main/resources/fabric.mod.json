@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "humanautopilot",
+	"version": "${version}",
+	"name": "Human Autopilot",
+	"description": "Client-side autopilot that plays using real key presses and smooth mouse movement: pathfinding, combat, eating, and ore mining.",
+	"authors": ["ItsMe"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.humanautopilot.HumanAutopilot"]
+	},
+	"mixins": ["humanautopilot.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"baritone": "*"
+	}
+}
